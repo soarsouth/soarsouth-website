@@ -79,7 +79,7 @@ const Home = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-700">
+              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-700 bg-transparent">
                 <Link to="/about">Learn More</Link>
               </Button>
             </div>
@@ -262,7 +262,7 @@ const Home = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button asChild size="lg" className="bg-white text-blue-700 hover:bg-gray-100 border-2 border-white font-semibold">
+            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-700 bg-transparent">
               <Link to="/contact">Contact Us</Link>
             </Button>
           </div>

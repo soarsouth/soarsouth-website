@@ -85,24 +85,24 @@ const Products = () => {
       products: [
         {
           name: 'Standard Game Cards',
-          description: 'High-quality playing cards for various games',
-          features: ['Standard poker size', '350g art paper', 'Smooth finish', 'Rounded corners'],
+          description: 'High-quality game cards for board games',
+          features: ['Custom game card size', '350g art paper', 'Smooth finish', 'Rounded corners'],
           specifications: ['Material: 350g art paper', 'Printing: 4C/4C CMYK', 'Finish: Varnish coating'],
-          image: '/assets/arCnoxQ7L1rw.png'
+          image: '/assets/game-cards-standard.jpg'
         },
         {
           name: 'Premium Cards',
-          description: 'Luxury cards with special finishes',
+          description: 'Luxury game cards with special finishes',
           features: ['Premium materials', 'Special coatings', 'Enhanced durability', 'Custom sizes'],
           specifications: ['Material: 400g art paper', 'Printing: Full color + special effects', 'Finish: UV/Foil options'],
-          image: '/assets/IkzFYavjS0dk.webp'
+          image: '/assets/game-cards-premium.jpg'
         },
         {
           name: 'Mini Cards',
-          description: 'Compact cards for specific game mechanics',
+          description: 'Compact game cards for specific mechanics',
           features: ['Space-saving design', 'Easy handling', 'Cost-effective', 'Custom dimensions'],
           specifications: ['Material: 300g cardstock', 'Printing: 4C/4C', 'Finish: Matte lamination'],
-          image: '/assets/zeKLFY12g4MI.jpg'
+          image: '/assets/game-cards-mini.jpg'
         }
       ]
     },
@@ -151,7 +151,7 @@ const Products = () => {
           description: 'Professional binding for longer rulebooks',
           features: ['16+ pages', 'Perfect binding', 'Durable spine', 'Professional appearance'],
           specifications: ['Material: 125g coated paper', 'Pages: Multiples of 16', 'Binding: Perfect bound'],
-          image: '/assets/ZkefNgRigKVK.jpg'
+          image: '/assets/mtNN2iHeiiWM.jpg'
         },
         {
           name: 'Hardcover Manual',
@@ -172,14 +172,14 @@ const Products = () => {
           description: 'Standard and custom printed dice',
           features: ['D6, D8, D10, D12, D20', 'Custom printing', 'Various colors', 'Standard or custom designs'],
           specifications: ['Material: Acrylic/Resin', 'Sizes: 12-20mm', 'Printing: Pad printing/Engraving'],
-          image: '/assets/6PV4SYfdGEGx.jpg'
+          image: '/assets/ZkefNgRigKVK.jpg'
         },
         {
           name: 'Wooden Components',
           description: 'Natural wood game pieces and tokens',
           features: ['Natural wood', 'Custom shapes', 'Laser engraving', 'Various wood types'],
           specifications: ['Material: Birch/Beech wood', 'Thickness: 3-8mm', 'Finish: Natural/Stained'],
-          image: '/assets/WPbGFzq8SC4O.jpg'
+          image: '/assets/Qn6UHgGDN0hc.jpg'
         },
         {
           name: 'Plastic Components',
@@ -428,7 +428,7 @@ const Products = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-700">
+            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-700 bg-transparent">
               <Link to="/contact">Contact Our Team</Link>
             </Button>
           </div>
