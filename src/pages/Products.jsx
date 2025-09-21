@@ -158,7 +158,7 @@ const Products = () => {
           description: 'Premium hardcover rulebooks for deluxe games',
           features: ['Hardcover binding', 'Premium materials', 'Dust jacket option', 'Luxury feel'],
           specifications: ['Cover: Hardcover board', 'Pages: Various counts', 'Binding: Case bound'],
-          image: '/assets/Qn6UHgGDN0hc.jpg'
+          image: '/assets/QeCdMy7tE0xS.jpg'
         }
       ]
     },
